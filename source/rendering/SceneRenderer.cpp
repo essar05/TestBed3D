@@ -9,7 +9,7 @@ SceneRenderer::SceneRenderer(float _width, float _height) {
   this->_width = _width;
   this->_height = _height;
 
-  _nanosuit = Ess3D::ModelCache::getInstance()->getModel("models/nanosuit/nanosuit.obj");
+  _nanosuit = Ess3D::ModelCache::getInstance()->getModel("models/ak47/ak47.obj");
 
   _shader = new Ess3D::Shader(true);
 
@@ -39,7 +39,7 @@ SceneRenderer::~SceneRenderer() {
 void SceneRenderer::render() {
   Game* game = Game::GetInstance();
 
-  glClearColor(0.00f, 0.00f, 0.00f, 1.0f);
+  glClearColor(0.30f, 0.20f, 0.00f, 1.0f);
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
   _shader->use();

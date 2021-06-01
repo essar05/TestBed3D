@@ -4,3 +4,4 @@
 out
 *.log
 vs-TestBed3D.*
+/.idea/
