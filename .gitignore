@@ -1,0 +1,6 @@
+.vs
+/build
+/cmake-cache/
+out
+*.log
+vs-TestBed3D.*
